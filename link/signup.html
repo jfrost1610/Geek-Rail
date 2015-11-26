@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Geekrail</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#FCB314">
+        <link rel="shortcut icon" href="../image/ms-icon-310x310.png">
+        <link rel="icon" sizes="192x192" href="../image/chromelogo.ico">
+        <link href="../css/fonts.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+    
+    <body>
+        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/smoothscroll.js"></script>
+        <script>$(document).on('click','.navbar-collapse.in',function(e) {if( $(e.target).is('a') ) {$(this).collapse('hide');}});</script>
+        
+        <nav class="navbar navbar-fixed-top visible-xs">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="iconpost">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <a class="navbar-brand" href="../index.html">
+                        <img style="max-width:100px;" src="../image/geekrail-logo-b.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="active"><a href="login.html" class="smoothScroll">Login</a></li>
+                        <li class="active"><a href="signup.html" class="smoothScroll">Signup</a></li>
+                        <li><a href="../index.html" class="smoothScroll">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="nav navbar navbar-fixed-top hidden-xs">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <a class="navbar-brand" href="../index.html">
+                            <img alt="Brand" src="../image/geekrail-logo-b.png">
+                        </a>
+                    </div>
+                        
+                    <div class="col-md-6">
+                        <div class="menupost">
+                        <ul class="pull-right">
+                            <li><a class="btn">Profile</a>
+                                <ul>
+                                    <li><a class="btn smoothScroll" href="login.html">Login</a></li>
+                                    <li><a class="btn smoothScroll" href="signup.html">signup</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="btn smoothScroll" href="../index.html#ani">About</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        
+        <form>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="name" class="form-control" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Middle Name</label>
+                        <input type="name" class="form-control" placeholder="Middle Name">
+                        </div>
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="name" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email address</label>
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label>Retype Password</label>
+                        <input type="password" class="form-control" placeholder="Retype Password">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Sign me up for the Newsletter
+                        </label>
+                    </div>
+                    <button type="submit" class="sub-btn">Submit</button>
+                    <div class="already">
+                        <p>Already have an account? <a href="login.html">Login</a></p>  
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </form>
+        
+        <div class="footer">
+            <div class="container-fluid">
+                <ul>
+                    <li>&copy; Geektrain 2015</li>
+                    <span flex></span>
+                    <li><a href="https://twitter.com/jobinthomas1610" class="twitter-follow-button" data-show-count="false">Follow @jobinthomas1610</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                        </script>
+                    </li>
+                    <li><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.geekrail.tk" data-via="jobinthomas1610" data-hashtags="geekrail">Tweet</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+                        </script>
+                    </li>
+                    <li>
+                        <div class="fb-share-button" data-href="https://www.geekrail.com" data-layout="button_count"></div>
+                    </li>
+               </ul> 
+            </div>
+        </div>
+        
+    </body>
+</html>
